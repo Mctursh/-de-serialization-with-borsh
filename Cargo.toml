@@ -1,0 +1,13 @@
+[package]
+name = "serialize_and_deserialize_data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = "1.18.25"
+borsh = "0.9.3"
+borsh-derive = "0.9.1"
+
+
+[lib]
+crate-type = ["cdylib", "lib"]
